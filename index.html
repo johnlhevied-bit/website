@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-header">
+            <h2>LHEXIRA</h2>
+            <p>Please enter your details to sign in</p>
+        </div>
+
+        <form id="loginForm" action="index2.html">
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="you@example.com" required>
+                <small class="error" id="emailError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <small class="error" id="passwordError"></small>
+            </div>
+
+            <div class="options">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="login-btn">Sign In</button>
+        </form>
+
+        <div class="signup-link">
+            Don’t have an account? <a href="#">Create one</a>
+        </div>
+    </div>
+
+    <script src="script.js."></script>
+
+</body>
+</html>
